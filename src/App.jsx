@@ -1,10 +1,10 @@
-import {Hero, PopularProducts, SuperQuality, Services, SpecialOffer, CustomerReviews, Subscribe, Footer, Nav} from './sections'
+import { Hero, PopularProducts, SuperQuality, Services, SpecialOffer, CustomerReviews, Subscribe, Footer, Nav } from "./sections";
 
 const App = () => {
   return (
     <main className=" text-indigo-500 relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
@@ -29,7 +29,7 @@ const App = () => {
         <Footer />
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
