@@ -8,7 +8,6 @@ import { shoes, statistics } from "../../constants"
 const Hero = () => {
 
   const [bigShoeImg, setbigShoeImg] = useState(bigShoe1)
-
   return (
     <section id="home" className=" w-full flex flex-col xl:flex-row justify-center min-h-screen gap-10 max-container">
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
